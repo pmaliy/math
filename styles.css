@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    position: relative;
+    padding: 80px;
+}
+
+.aligned {
+    font-size: 70px;
+}
+
+.answer.aligned {
+    width: 72px;
+    border-width: 0 0 1px 0;
+}
+
+.answer.aligned:focus {
+    outline: none;
+}
+
+.counter, .time {
+    position: absolute;
+    height: 20px;
+    width: 100px;
+    padding: 5px;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    text-align: left;
+}
+
+.time {
+    left: auto;
+    right: 0;
+    text-align: right;
+}
